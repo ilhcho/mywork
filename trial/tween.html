@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="KO">
+<head>
+<title> </title>
+
+<style type="text/css">
+#box { width:600px; height:300px; position:relative; border:1px solid gray;
+background-image:url('배경이미지.jpg'); }
+#box div { position:absolute; opacity:0; filter:Alpha(opacity=0); }
+#tit_01 { top:100px; left:180px; font-size:30px; font-weight:900; color:red; }
+#tit_02 { top:100px; left:310px; font-size:30px; font-weight:900; color:red; }
+#tit_03 { top:100px; left:50px; width:1px; height:50px; font-size:30px; font-weight:900; color:red; white-space:nowrap; overflow:hidden;  }
+#tit_04 { top:150px; left:420px; font-size:30px; font-weight:900; color:red; }
+#tit_05 { top:230px; right:30px; font-size:16px; color:gray; text-align:right; }
+</style>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+var auto;
+var auto_ree;
+$(function(){
+moves();
+auto = setInterval(function(){moves()},10000);
+});
+
+function moves(){  // 각 글자에 에니메이션 주기
+$("#tit_01").animate({ opacity: "1",top: "50px" },3000,function(){
+$("#tit_02").animate({ opacity: "1",top: "50px" },1000,function(){
+$("#tit_03").animate({ opacity: "1",width: "400px" },2000,function(){
+$("#tit_04").animate({ opacity: "1",top: "100px" },1000,function(){
+$("#tit_05").animate({ opacity: "1",top: "190px" },1000,function(){
+auto_ree = setInterval(function(){ree()},3000);
+});
+});
+});
+});
+});
+}
+
+function ree(){  // 각 글자들을 원래위치로 다시 돌려놓기
+$("#box div").animate({ opacity: "0"},function(){
+$("#tit_01").css("top","100px");
+$("#tit_02").css("top","100px");
+$("#tit_03").css("width","1px");
+$("#tit_04").css("top","150px");
+$("#tit_05").css("top","230px");
+clearInterval(auto_ree);
+});
+}
+</script>
+
+</head>
+<body>
+
+<div id="box">
+    <div id="tit_01">Your name</div>
+    <div id="tit_02">is Cherry</div>
+    <div id="tit_03">What do you tink of me?</div>
+    <div id="tit_04">Do you think of me?</div>
+    <div id="tit_05">
+         <img src="Images/window_logo.gif">
+    </div>
+</div>
+
+</body>
+</html>

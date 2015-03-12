@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script>
+      
+
+    </script>
+
+</head>
+
+
+<body>
+    <div id="try1">
+        <table>
+            <tr>
+                <td><div id="hour"></div></td>
+                <td>:</td>
+                <td><div id="min"></div></td>
+                <td></td>
+                <td><div id="am"></div><div id="pm"></div></td>
+                </tr>
+
+            <tr>
+                <td><div id="date"></div></td>
+                <td>/</td>
+                <td><div id="month"></div></td>
+                <td>/</td>
+                <td><div id="year"></div></td>
+                
+            </tr>
+        </table>        
+        
+        
+    </div>
+
+
+    <script>
+        
+
+        //Excute time function every seconds
+        var intervalID = setInterval(function () {
+
+
+        //Get Current time and day
+        var time = new Date();
+        var hour = time.getHours();
+
+        //Get am or pm
+        if (hour < 12)
+            document.getElementById("am").innerHTML = "a.m.";
+        else
+            document.getElementById("pm").innerHTML = "p.m.";
+        
+       
+
+        var min = time.getMinutes();
+        var date = time.getDate();
+        var month = time.getMonth()+1;
+        var year = time.getFullYear();
+      
+        document.getElementById("hour").innerHTML = hour;
+        document.getElementById("min").innerHTML = min;
+        document.getElementById("date").innerHTML = date;
+        document.getElementById("month").innerHTML = month;
+        document.getElementById("year").innerHTML = year;
+        }, 100);//end of setInterval
+    </script>
+   
+
+</body>
+</html>

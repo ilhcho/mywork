@@ -1,0 +1,357 @@
+
+#eachPaper0{position: absolute; margin:5px 0 0 0px;}
+#eachPaper1{ position: absolute; margin:6px 0 0 0px;}
+#eachPaper2{ position: absolute; margin:7px 0 0 0px;}
+#eachPaper3{ position: absolute; margin:7px 0 0 0px;}
+#eachPaper4{position: absolute; margin:6px 0 0 0px;}
+#eachPaper5{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper6{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper7{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper8{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper9{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper10{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper11{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper12{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper13{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper14{ position: absolute; margin:5px 0 0 0px;}
+#eachPaper15{ position: absolute; margin:5px 0 0 0px;}
+
+.first_iframe{
+  width: 1195px;
+  height: 680px;
+  /*background-color: red;*/
+  margin: 30px 0 0 0;
+}
+
+/*  Iframe style */
+
+#iframe_style{
+  position: absolute;
+  margin:5px 0 0 2px ;
+  width:1190px;
+  height:660px;
+  /*background-color: yellow;*/
+}
+
+.papers_grades{
+  display: none;
+  position: absolute;
+  margin:-87% 0 0 -60%;
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  width: 1190px;
+  height: 697px;
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, .6);
+}
+.tabbable{
+  position: absolute;
+  width: 100px;
+  height: 600px;
+  margin: 100px 0 0 -94px;
+  /*z-index: 1000;*/
+}
+
+.tabbable li a{
+  color: white;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.tabbable li {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, .6);
+}
+
+
+#grades_bg{
+  position: absolute;
+  background-image: url("../images/main/education/all_papers_empty.jpg");
+  background-repeat: no-repeat;
+  width: 785px;
+  height: 657px;
+  margin:-656px 0px 0px 390px; 
+  background-size: 785px 657px;
+  border-radius: 7px;
+
+}
+#all_papers{
+   font-family: Arial, Arial, Helvetica, sans-serif;
+}
+#description_papers{
+  margin: -10px 0 0 -5px;
+  float: left;
+  height: 635px;
+  width: 385px;
+  background-color:white;
+  /*margin:35px 0 0 5px;*/
+  border-radius: 5px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+.paper_hover_box0{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:98px 0 0 123px;
+}
+.paper_hover_box1{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:133px 0 0 123px;
+}
+.paper_hover_box2{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:168px 0 0 123px;
+
+}
+.paper_hover_box3{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:203px 0 0 123px;
+}
+.paper_hover_box4{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:238px 0 0 123px;
+}
+
+.paper_hover_box5{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:273px 0 0 123px;
+}
+.paper_hover_box6{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:307px 0 0 123px;
+}
+.paper_hover_box7{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:342px 0 0 123px;
+}
+.paper_hover_box8{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:377px 0 0 123px;
+}
+.paper_hover_box9{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:412px 0 0 123px;
+
+}
+.paper_hover_box10{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:446px 0 0 123px;
+}
+.paper_hover_box11{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:481px 0 0 123px;
+}
+.paper_hover_box12{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:516px 0 0 123px;
+}
+.paper_hover_box13{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:550px 0 0 123px;
+
+}
+.paper_hover_box14{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:585px 0 0 123px;
+}
+.paper_hover_box15{
+  position: absolute;
+  width: 274px;
+  height: 30px;
+  margin:620px 0 0 123px;
+}
+
+.paper_hover_box0:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box1:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box2:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box3:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box4:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box5:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box6:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box7:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box8:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box9:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box10:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box11:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box12:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box13:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box14:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+.paper_hover_box15:hover {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color:#8DC6FF ;
+  opacity: 0.5;
+}
+
+
+/* Descriptions */
+#description_body{
+  padding-left: 5px;
+	margin:-33px 0 0 -5px;
+	height: 655px;
+	width: 385px;
+	background-color: white;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+  border-radius: 7px;
+  }
+  #intent{
+  	margin-left: 0px;
+  }
+
+.paper_title{
+	margin: 34px 0 0 0px;
+  padding-top: 4px;
+	text-align:center; 
+}
+
+ #structure_bar_img{
+ 	position: absolute;
+	margin:2px 0 0 -5px;
+	background-image: url("../images/main/education/structure.png");
+	height: 30px;
+	width: 388px;
+	border: 1px solid #191975;
+}
+#learning_bar_img{
+  position: absolute;
+  margin:2px 0 0 -5px;
+  background-image: url("../images/main/education/learning.png");
+  height: 30px;
+  width: 388px;
+  border: 1px solid #191975;
+}
+
+#difficulty_bar_img{
+  position: absolute;
+  margin:2px 0 0 -5px;
+  background-image: url("../images/main/education/difficulty.png");
+  height: 30px;
+  width: 388px;
+  border: 1px solid #191975;
+}
+
+#project_bar_img{
+  position: absolute;
+  margin:2px 0 0 -5px;
+  background-image: url("../images/main/education/project.png");
+  height: 30px;
+  width: 388px;
+  border: 1px solid #191975;
+}
+
+
+
+.paper_purpose{
+	position: absolute;
+	margin:45px 0 0 0;
+  width: 365px;
+}
+
+
+

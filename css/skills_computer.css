@@ -1,0 +1,31 @@
+#skills_body{
+	margin:-4px 0 0 -4px;
+	width: 816px;
+	height: 445px;
+  	background-color: white;
+  	font-family: Arial, Arial, Helvetica, sans-serif;
+  	font-size: 20px;
+	
+  }
+
+#html_style1{color:red; margin:0px 0 0 10px;text-shadow: 2px 2px 8px grey;}
+#html_style2{color:orange; margin:15px 0 0 50px;text-shadow: 2px 2px 8px grey;}
+#html_style3{color:#FFFF00; margin:15px 0 0 90px;text-shadow: 2px 2px 8px grey;}
+#html_style4{color:green; margin:15px 0 0 130px;text-shadow: 2px 2px 8px grey;}
+#html_style5{color:blue; margin:15px 0 0 170px;text-shadow: 2px 2px 8px grey;}
+#html_style6{color:navy; margin:15px 0 0 210px;text-shadow: 2px 2px 8px grey;}
+#html_style7{color:purple; margin:15px 0 0 250px;text-shadow: 2px 2px 8px grey;}
+
+#moveme1{position:absolute; color:red; margin:0px 0 0 10px;text-shadow: 2px 2px 8px grey;}
+#moveme2{position:absolute; color:orange; margin:40px 0 0 50px;text-shadow: 2px 2px 8px grey;}
+#moveme3{position:absolute; color:#FFFF00; margin:75px 0 0 90px;text-shadow: 2px 2px 8px grey;}
+#moveme4{position:absolute; color:green; margin:115px 0 0 130px;text-shadow: 2px 2px 8px grey;}
+#moveme5{position:absolute; color:blue; margin:155px 0 0 170px;text-shadow: 2px 2px 8px grey;}
+#moveme6{position:absolute; color:navy; margin:195px 0 0 210px;text-shadow: 2px 2px 8px grey;}
+#moveme7{position:absolute; color:purple; margin:235px 0 0 250px;text-shadow: 2px 2px 8px grey;}
+
+h1 {text-align: center;}
+input[type="text"], label {
+	margin-bottom: 12px;padding:.4em;
+	width: 95%;
+}

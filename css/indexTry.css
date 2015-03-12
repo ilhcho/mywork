@@ -1,0 +1,197 @@
+
+	
+/* Main div of Welcome message */
+#box div { position:absolute; opacity:0; filter:Alpha(opacity=0);margin:10% 0px 0px 8%; }
+
+/*Background css*/
+
+/* background: url('../images/index/index_background.gif') no-repeat 50% 50% fixed; */
+body#bg {
+ 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  /*width: 1920px;
+  height: 1200px;*/}
+
+
+/*Each line of Welcome messages*/
+#firt_line { top:100px; left:50px; width:1px; height:80px; font-size:80px; font-weight:bold;  white-space:nowrap; overflow:hidden;  }
+#second_line { top:180px; left:50px; width:1px; height:80px; font-size:80px; font-weight:bold; white-space:nowrap;  overflow:hidden;   }
+#windowLogo { top:50px; left:900px; }
+#windowLogo:hover {	
+	border: 1px solid #3399FF;
+	border-radius: 7px;
+ 	background-color:#8DC6FF ;
+ 	opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+
+
+
+
+/* Main div of window logo and email & password inputs*/
+
+
+#id_password{
+margin:23% 0 0 49.5%;
+width:400px;
+height:100px;
+display:none;
+text-align:center;
+/* Validation font*/
+color:red;
+font-size:12px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+/*border:solid 1px #c3c3c3;*/  /*Checking the outline*/
+}
+
+#id_password_direct{margin:23% 0 0 49.5%;
+width:400px;
+height:100px;
+text-align:center;
+/* Validation font*/
+color:red;
+font-size:12px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+
+
+
+/*Error Container box, Deos not use because Can't find the blue color box outline css
+input.error {
+    color: #D95C5C !important;
+    border-color: #D95C5C !important;
+}
+*/
+
+
+#login_form #login2 {
+	float:left;
+	width:500px;
+	height:100px;
+    margin-left:30px;
+	margin-top:20px;
+}
+
+
+#login2 #id_pw_input {
+	float:left;
+	height:50px;
+	margin-left:90px;
+
+}
+
+/*Login input box desgin*/
+#login2 #id_pw_input input.login_input {
+
+	width:180px;
+	height:18px;
+	
+	/*border:solid 1px #cccccc;*/
+	
+	background: #fff;
+	border: 1px solid #ffff;
+	border-radius: 4px;
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	
+	
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+
+/* Login button*/
+#login2 #login_button {
+	float:left;
+	margin:15px 0px 0px 10px;
+}
+
+#login_button:hover {	
+	border: 1px solid #3399FF;
+	border-radius: 7px;
+ 	background-color:#8DC6FF ;
+ 	opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+
+
+/* Register Button */
+#register_button a{
+margin-left:7px; 
+color:#989898;
+font-size:12px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#register_button:hover {
+  font-weight:bold;
+  
+}
+
+/*  Margin bettwen ID and P/W */
+#password_margin{margin-top:7px;}
+
+
+.form-group{border: 1px solid #ffff;}
+/* Register_form css */
+#register2{color:red; 
+font-size:13px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+
+
+#logged{
+	position: absolute;
+	text-align: center;
+	font-size: 13px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	width: 110px;
+	height: 35px;
+	top:460px; left:1100px;
+	background-color:white;
+}
+
+
+#logout_button{
+	position: absolute;
+	width: 110px;
+	height: 30px;
+	top:500px; left:1105px;
+	background-color:#33ADD6;
+	opacity:0.5;
+	border-radius:7px;
+	color: white;
+	text-align: center;
+	border: 1px solid #3399FF;
+}
+
+#logoff_string{
+	margin-top:7px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+
+}
+
+#logout_button:hover{
+	border-radius:7px;
+ 	background-color:#8DC6FF ;
+ 	
+ 	
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+
+
+
+
+

@@ -1,0 +1,260 @@
+/* Bcakground style */
+body#bg {
+  background: url('../images/main/main_bg.jpg') no-repeat fixed; 
+  width: 99%;
+  height: 100%;
+ }
+/* Manage Page */
+#manage_page{
+  position: absolute;
+  margin:50px 0 0 800px;
+  font-size: 30px;
+}
+/* Folder boxes css*/
+div.box{width: 90px;height: 91px;
+	color: #EFEFEF;
+	font-size: 12px;
+	text-align: center;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	text-shadow:1px 3px 2px black;
+	position:absolute;
+		}
+/* folder mouse hover */
+.box:hover {
+	border: 2px solid #99CCFF;
+	border-radius: 4px;
+ 	background-color:#D6EBFF ;
+ 	opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+/* Each Folder styles */
+img.computer_icon{width: 70px;height: 70px; margin:-12px 0px 0px -5px;}
+img.recyclebin_icon{ margin:0px 0px 0px 0px;}
+img.folder_icon{margin:0px 0px 0px 15px;}
+img.reference{ margin:0px 0px 0px 0px;}
+img.word_press{ margin:0px 0px 0px 0px; width:60px;height:60px;}
+img.linkedIn{ margin-top: 5px;}
+img.about_icon{margin-top:5px;}
+/* Each folder box position*/
+#box1{ margin:50px 0px 0px 50px;}
+#box2{ margin:150px 0px 0px 50px;}
+#box3{ margin:250px 0px 0px 50px;}
+#box4{ margin:350px 0px 0px 50px;}
+#box5{ margin:450px 0px 0px 50px;}
+#box6{ margin:50px 0px 0px 150px;}
+#box7{ margin:150px 0px 0px 150px;}
+
+/* Start button */
+#start_button{
+  position:absolute;
+  margin:40% 0px 0px 50px;}
+#start_button:hover {
+	border-radius:100px;
+ 	background-color:#D6EBFF ;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+#start_menu {
+  position:absolute;
+  margin:22% 0px 0px 175px;
+  width: 400px;
+  height: 500px;
+  background: rgba(0, 0, 0, .6);
+  display:none;   
+  padding:6px;
+  border-radius: 10px;
+  border: 1px solid #303030;
+  color:white;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+#start_menu1{	
+  width:250px;
+  height: 498px;
+  background:white;
+  opacity:1;
+  border-radius: 10px;
+  border: 1px solid #303030;
+  font-size: 13px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+  }
+/* Start menu content */
+.menu:hover {
+	position: absolute;
+	margin:2px 0px 0px 3px;
+	width: 242px;
+	height: 60px;
+	border: 1px solid #3399FF;
+	border-radius: 7px;
+ 	background-color:#8DC6FF ;
+ 	opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+#stick_note{
+	float: left;
+	margin:5px 0px 0px 15px;
+	position: absolute;
+}
+#stick_note_wp{
+  float: left;
+  margin:5px 0px 0px 17px;
+  position: absolute;
+}
+
+#stick_note_linkedIn{
+  float: left;
+  margin:5px 0px 0px 19px;
+  position: absolute;
+}
+#stick_note_name a{
+	position: absolute;
+	color: black;
+	margin:25px 0px 0px 90px;	
+}
+#start_menu_window_logo{
+  position:absolute;
+  margin:-20px 0px 0px 295px;
+}
+#start_munu_computer a{
+  color: white;
+  position:absolute;
+  margin:7px 0px 0px 5px;
+}
+.computer_hover:hover {
+  position:absolute;
+  width: 140px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color:#303030 ;
+  opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+#computer_location{
+  position:absolute;
+  margin:142px 0px 0px 258px;
+}
+#user_location{
+  position:absolute;
+  margin:65px 0px 0px 258px;
+}
+#user_account {
+  color: white;
+  position:absolute;
+  margin:7px 0px 0px 5px;
+}
+#start_munu_computer_border{
+  position:absolute;
+  border-bottom: 1px solid #303030;
+  width: 130px;
+  margin:137px 0px 0px 263px;
+  opacity: 0.5;  
+}
+#start_munu_computer_border2{
+  position:absolute;
+  border-bottom: 1px solid #303030;
+  width: 130px;
+  margin:178px 0px 0px 263px;
+  opacity: 0.5;  
+}
+#login_logout{
+  position:absolute;
+  width:90px;
+  height: 25px;
+  margin:465px 0px 0px 263px;  
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #527A7A;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+#login_logout:hover {
+  position:absolute;
+  margin:465px 0px 0px 263px;  
+  width:90px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:#303030 ;
+  opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+#login_logout_string {
+  width:90px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 4px;
+}
+  /* Note */
+#green_note_title{
+  text-align: center;
+  margin-top: -12px;
+}
+#green_note{
+  position:absolute;
+  background: url('../images/main/green_note.jpg');
+  width:400px;
+  height:300px;
+  float: left;
+  margin:4% 0px 0px 65%;
+  box-shadow: 2px 3px 5px black;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+#note{
+  z-index: 800;
+  position:absolute;
+  background: url('../images/main/note_write.jpg');
+  width:480px;
+  height:393px;
+  float: left;
+  margin:25% 0px 0px 70%;
+  box-shadow: 2px 3px 5px black;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+#note_write{
+  z-index: 1000;
+  position:absolute;
+  background: url('../images/main/note_write.jpg');
+  width:480px;
+  height:393px;
+  float: left;
+  margin:5% 0px 0px 50%;
+  box-shadow: 2px 3px 5px black;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+#note_view{
+  z-index: 1000;
+  position:absolute;
+  background: url('../images/main/note.jpg');
+  width:480px;
+  height:393px;
+  float: left;
+  margin:5% 0px 0px 50%;
+  box-shadow: 2px 3px 5px black;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+/* Green Light */
+#green_light{
+  position:absolute; 
+  margin:0px 0px 0px 90%;
+  color: #EFEFEF;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  text-shadow:1px 3px 2px black;
+  }

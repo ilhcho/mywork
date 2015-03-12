@@ -1,0 +1,639 @@
+
+
+/* light box design important*/
+.modal-box {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+/* Light box demension important */
+
+@media (min-width: 32em) {
+
+.modal-box {  width: 500px;
+              height: 400px;
+              background: rgba(0, 0, 0, .6);
+              background-repeat: no-repeat;
+
+            }
+}
+.modal-box header h3{
+  margin-left: 5px; }
+
+
+/* Light box overlay important */
+.modal-overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.modal_overlay_skill {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  
+}
+/*  Close button */
+#close {
+  line-height: 0;
+  font-size: 22px;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+#close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+
+/* Computer folder bcakground*/
+.computer_bg{
+  background-image: url("../images/main/windows/window6.jpg");  
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  background-size: 490px 360px;
+  margin:35px 0px 0px 5px;
+}
+
+
+/* Computer folder style */
+.modal-body{
+  color: white;
+  font-size: 14px;
+  margin:28px 0px 0px 5px;
+
+}
+#hdd_bar{
+  width: 18px;
+  height: 18px;
+  float:left;
+  
+}
+#hdd_bar_border{
+  border-bottom: 1px solid #ddd;
+  width: 135px;
+  margin:2px 0px 0px 8px;  
+}
+
+
+/* Local disk drivers  */
+#disk_c{
+  width:40%;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: #EFEFEF;
+  font-size: 12px;
+}
+#disk_c:hover{
+  opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+#disk_c_image{
+  margin-left: 8px;
+  float: left;
+}
+
+#disk_c_name{
+  margin-top: 10px;
+}
+
+#disk_f_image{
+  margin-left: 6px;
+  float: left;
+}
+
+#capacity{
+  color:#bbb;
+}
+
+/* Reference Content */
+
+.reference_bg{
+  background-image: url("../images/main/reference/contact.png"); 
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: #EFEFEF;
+  font-size: 12px; 
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 688px;
+  margin:35px 0px 0px 5px; 
+}
+
+.reference_modal_box {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+/* Light box demension important */
+
+@media (min-width: 32em) {
+
+.reference_modal_box {  width: 450px;
+              height: 730px;
+              background: rgba(0, 0, 0, .6);
+              background-repeat: no-repeat;
+
+            }
+}
+/*Bill gates*/
+.bill_gates{
+  position: absolute;
+  margin: 170px 0 0 5px;
+}
+
+.bill_gates_content{
+  position: absolute;
+  width: 280px;
+  margin: 175px 0 0 85px;
+}
+
+.phone_image{
+  position: absolute;
+  margin:175px 0 0 365px;
+}
+.phone_image:hover{ 
+  opacity: 0.5;
+}
+
+#speech_bubble_content{
+  width: 315px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-image: url("../images/main/reference/speech_bg1.png");
+  position: absolute;
+  display: none;
+  margin: 85px 0 0 -325px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 12px;
+}
+#speech_comment{
+  position: absolute;
+  margin: 20px 0 0 20px;
+}
+
+/* Diana*/
+.diana_photo{
+  position: absolute;
+  margin: 246px 0 0 5px;
+
+}
+
+.diana{
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  margin: 245px 0 0 5px;
+}
+.diana_content{
+  position: absolute;
+  width: 280px;
+  margin: 250px 0 0 85px;
+}
+.diana_phone_image{
+  position: absolute;
+  margin:250px 0 0 365px;
+}
+.diana_phone_image:hover{ 
+  opacity: 0.5;
+}
+#diana_speech_bubble_content{
+  width: 315px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-image: url("../images/main/reference/speech_bg2.png");
+  position: absolute;
+  display: none;
+  margin: 150px 0 0 -325px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 12px;
+}
+#diana_speech_comment{
+  osition: absolute;
+  margin: 20px 0 0 20px;
+}
+
+/* Yiming */
+.yiming{
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  margin: 325px 0 0 5px;
+}
+.yiming_content{
+  position: absolute;
+  width: 280px;
+  margin: 325px 0 0 85px;
+}
+.yiming_phone_image{
+  position: absolute;
+  margin:325px 0 0 365px;
+}
+.yiming_phone_image:hover{ 
+  opacity: 0.5;
+}
+#yiming_speech_bubble_content{
+  width: 315px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-image: url("../images/main/reference/speech_bg1.png");
+  position: absolute;
+  display: none;
+  margin: 230px 0 0 -325px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 12px;
+}
+#yiming_speech_comment{
+  osition: absolute;
+  margin: 20px 0 0 20px;
+}
+
+/* John */
+.john{
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  margin: 400px 0 0 5px;
+}
+.john_content{
+  position: absolute;
+  width: 280px;
+  margin: 400px 0 0 85px;
+}
+.john_phone_image{
+  position: absolute;
+  margin:400px 0 0 365px;
+}
+.john_phone_image:hover{ 
+  opacity: 0.5;
+}
+#john_speech_bubble_content{
+  width: 315px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-image: url("../images/main/reference/speech_bg1.png");
+  position: absolute;
+  display: none;
+  margin: 300px 0 0 -325px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 12px;
+}
+#john_speech_comment{
+  osition: absolute;
+  margin: 20px 0 0 20px;
+}
+
+/*Tony*/
+.tony_kuo{
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  margin: 475px 0 0 5px;
+}
+.tony_content{
+  position: absolute;
+  width: 280px;
+  margin: 475px 0 0 85px;
+}
+.tony_phone_image{
+  position: absolute;
+  margin:475px 0 0 365px;
+}
+.tony_phone_image:hover{ 
+  opacity: 0.5;
+}
+#tony_speech_bubble_content{
+  width: 315px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-image: url("../images/main/reference/speech_bg1.png");
+  position: absolute;
+  display: none;
+  margin: 370px 0 0 -325px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 12px;
+}
+#tony_speech_comment{
+  osition: absolute;
+  margin: 20px 0 0 20px;
+}
+
+/* Education Content */
+
+.education_bg{
+  background-image: url("../images/main/windows/window11.jpg");  
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+  margin:35px 0px 0px 5px; 
+  background-size: 490px 360px;
+}
+
+.education_modal_box{
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+/* Light box demension important */
+
+@media (min-width: 32em) {
+
+.education_modal_box {  width: 500px;
+              height: 400px;
+              background: rgba(0, 0, 0, .6);
+              background-repeat: no-repeat;
+              
+            }
+}
+
+.education_modal_box header h3{
+  margin-left: 5px;
+ }
+
+
+.wordPress_bg{
+  background-image: url("../images/main/windows/window3.jpg");  
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+  margin:0px 0px 0px 0px; 
+  background-size: 600px 600px;
+}
+
+.wordPress_modal_box {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+/* Light box demension important */
+
+@media (min-width: 32em) {
+
+.wordPress_modal_box {  width: 600px;
+              height: 600px;
+              background: rgba(0, 0, 0, .6);
+              background-repeat: no-repeat;
+
+            }
+}
+
+.portfolio_sample_location{
+  position: absolute;
+  width: 110px;
+  height: 90px; 
+  margin: 28px 0 0 28px;
+}
+.portfolio_sample_location a{color: black;}
+.portfolio_sample_location:hover{opacity: 0.5;}
+
+.cafe_sample_location{
+  position: absolute;
+  width: 110px;
+  height: 90px;
+  margin:28px 0 0 170px;
+  }
+.cafe_sample_location a{color: black;}
+.cafe_sample_location:hover{opacity: 0.5;}
+
+#unitec_logo{
+  border-radius:5px;
+  margin:40px 0px 0px 40px;
+  float:left; 
+}
+
+
+
+#unitec_string {
+  margin:62px 0px 0px 5px; 
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: #EFEFEF;
+  font-size: 12px;
+}
+#unitec_string a{color: #EFEFEF;}
+
+#unitec_highlights{
+  font-size:15px;
+  margin:10px 0px 0px 75px; 
+  }
+
+#highlights_border{
+  border-bottom: 1px solid #ddd;
+  width: 245px;
+  margin:2px 0px 0px 72px;  
+}
+
+#highlights{
+  font-size:12px;
+  margin:6px 0px 0px 75px; 
+
+  }
+
+#highlights_view{
+  font-size:13px;
+  margin:4px 0px 0px 73px; 
+  }
+#highlights_view:hover{
+  opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+#highlights_border2{
+  border-bottom: 1px solid #ddd;
+  width: 238px;
+  margin:2px 0px 0px 72px;  
+}
+
+/* Programiing skill in computer folder*/
+
+.pro_skill_computer {
+  position: absolute;
+  display: none;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  width: 850px;
+  height: 630px;
+  margin:-50% 0 0 -55%;
+}
+
+#skill_activated{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px;
+  width: 840px;
+  height:417px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#skill_activate_button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width:98%;
+  height:150px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+ 
+  
+}
+
+.skill_buttons{
+  background-image: url("../images/main/computer/button-bg.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 80px 30px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  float: left;
+  margin: 8px 0 0 8px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 13px;
+  text-shadow:1px 1px 2px black;
+  border:1px solid #D1D1E0;
+  border-radius: 5px;
+}
+
+.skill_buttons:hover{
+  border: 1px solid #99CCFF;
+  border-radius: 4px;
+  background-color:#D6EBFF ;
+  opacity: 0.5;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+
+}
+
+#button_locagion1{margin:8px 0 0 98px;}
+#button_locagion2{margin:8px 0 0 188px;}
+#button_locagion3{margin:8px 0 0 278px;}
+#button_locagion4{margin:8px 0 0 368px;}
+#button_locagion5{margin:8px 0 0 458px;}
+#button_locagion6{margin:8px 0 0 548px;}
+#button_locagion7{margin:8px 0 0 638px;}
+
+
+#skill_iframe_style{
+  position: absolute;
+  margin:7px 0 0 4px ;
+  width:97%;
+  height:62%;
+  background-color: white;
+}
+
+.potential_skill_computer{
+  display: none;
+  position: absolute;
+  margin:-82% 0 0 -70%;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  width: 950px;
+  height: 560px;
+  background: rgba(0, 0, 0, .6);
+}
+
+#potential_bg{
+  background-image: url("../images/main/windows/window4.jpeg");
+  background-repeat: no-repeat;
+  background-size: 940px 515px;
+  width: 940;
+  height: 515px;
+  margin:35px 0px 0px 5px; 
+  
+}
+
+.about_content_bg{
+  display: none;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  background: rgba(0, 0, 0, .6);
+}
+
+
+#about_close {
+  line-height: 0;
+  font-size: 22px;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+#about_close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
