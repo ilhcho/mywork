@@ -340,8 +340,42 @@ About
 </div>
 <div id="about_content" class="about_content_bg">
 <header id="about_close"><div id="about_close">×</div></header>
-
 </div>
+
+
+<!-- Projet-->
+<div class="box" id="box8">
+<a  href="#" data-modal-id="popup11">
+<img width="77" height="77" src="../images/main/project/work.png" alt="">
+</a>
+Unitec Projects
+</div>
+<div id="popup11" class="project_modal_box">
+<div class="project_bg">
+  <header> <a href="#" class="js-modal-close" id="close">×</a>
+  </header>
+  <a href="../projects/mmwd_project/SamsungCritique.html" target="_blank">
+  <div class="portfolio_sample_location">
+    <img src="../images/main/project/muti.jpg">
+    Multimedia
+    </a>
+  </div>
+<div class="cafe_sample_location">
+   <a href="../projects/iwd_1/index.php" target="_blank">
+    <img src="../images/main/project/iwd_1.jpg">
+    IWD1
+  </a>
+</div>
+<div class="third_location">
+   <a href="../projects/iwd_2/index.php" target="_blank">
+    <img src="../images/main/project/iwd_2.jpg">
+    IWD2
+  </a>
+</div>
+  </div>
+  </div>
+
+
 
 <!-- Start button -->
   <img id="start_button" src="../images/main/start_button.png">
@@ -352,6 +386,10 @@ About
   <div id="user_location">
   <div class="computer_hover">
   <div id="user_account">
+
+
+
+
 
 <!-- get user account  -->
   <?php 
